@@ -1,0 +1,136 @@
+/* ShowStudent.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show-student-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+}
+
+/* Sidebar Section */
+.sidebar-container {
+    width: 250px;
+    background-color: #1f2937;
+    color: white;
+    padding: 3px;
+}
+
+.sidebar-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sidebar-container button:hover {
+    background-color: #1d4ed8;
+}
+
+.sidebar-container p {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+/* Table Section */
+.show-student-container > div:last-child {
+    flex: 1;
+    padding: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+thead {
+    background-color: #2563eb;
+    color: white;
+}
+
+th {
+    padding: 16px;
+    text-align: left;
+    font-size: 17px;
+}
+
+td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+
+
+/* Loading Screen */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .show-student-container {
+        flex-direction: row;
+    }
+
+    .sidebar-container {
+        width: 100%;
+    }
+
+    .show-student-container > div:last-child {
+        padding: 20px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
+    }
+
+    .show-student-container > div:last-child {
+        padding: 20px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
+    }
+}
+        width: 100%;
+    }
+
+    .show-student-container > div:last-child {
+        padding: 20px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
